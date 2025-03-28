@@ -69,6 +69,10 @@ button:hover {
     background: #ffaa00;
 }
 
+#download-btn{
+    margin-top: 40px;
+}
+
 section {
     margin: 50px 20px;
     width: 80%;
@@ -85,6 +89,9 @@ section {
 }
 
 .plan {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     padding: 20px;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 15px;
@@ -100,6 +107,7 @@ section {
 .premium {
     border: 2px solid #ffcc00;
 }
+
 
 form {
     display: flex;
